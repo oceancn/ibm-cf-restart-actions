@@ -7,7 +7,7 @@ on:
     types: started
   schedule:
     - cron: 0 5 * * 1
-
+ 
 jobs:
   IBM-Cloud-CF-APP-Restart:
     runs-on: ubuntu-latest
